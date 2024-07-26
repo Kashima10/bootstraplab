@@ -1,0 +1,54 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Style for all paragraphs */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Style for elements with the class "highlight" */
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Style for the element with the ID "header" */
+  #header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for links inside the header */
+  #header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for links inside the header */
+  #header a:hover {
+    text-decoration: underline;
+  }
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px; /* Space between navbar and card */
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #navbar {
+    background-color: #4192c5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
